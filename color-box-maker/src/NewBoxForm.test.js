@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react';
-import App from './App';
+import NewBoxForm from './NewBoxForm';
 
 test('renders without crashing', () => {
-  render(<App />);
+    render(<NewBoxForm />);
 });
